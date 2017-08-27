@@ -1,0 +1,62 @@
+<header-module></header-module>
+<div class="container main-content">
+ <div class="row">
+    <div class="col-12 heading-outer">
+       <h3>My Dashboard</h3>
+    </div>
+ </div>
+ <div class="row content-inner">
+    <div class="col-lg-4" >
+      <div ng-repeat="x in home.records">
+        <div class="box {{x.color}} clearfix" >
+          <span class="number pull-left" ng-bind="x.Rank"></span>
+          <span class="text  pull-right">{{x.Name}}<span>(Last 7 Days)</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+       <div class="shadow-box">
+          <h3>Guests arriving</h3>
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+             <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#home" role="tab">Today</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#profile" role="tab">Next Date</a>
+             </li>
+          </ul>
+          <!-- Tab panes -->
+          <div class="tab-content">
+             <div class="tab-pane active" id="home" role="tabpanel">
+                <table class="table table-striped">
+                   <tbody>
+                      <tr ng-repeat="guest in home.guests">
+                         <td class="green-color" ng-bind="guest.Name"></td>
+                         <td class="text-right" ng-bind="guest.Description"></td>
+                         <td class="text-right" ng-bind="guest.Hotel"></td>
+                      </tr>
+                     
+                   </tbody>
+                </table>
+             </div>
+          </div>
+       <div class="green-color text-right guest-arriving">More Guests Arriving...</div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+       <div class="shadow-box">
+          <h3>Revenue - All Time</h3>
+          <table class="table table-striped">
+             <tbody>
+                <tr ng-repeat="revenue in home.revenue">
+                   <td ng-bind="revenue.Day"></td>
+                   <td class="text-right green-color" ng-bind="revenue.Rank"></td>
+                </tr>
+                
+             </tbody>
+          </table>
+       </div>
+    </div>
+ </div>
+</div>

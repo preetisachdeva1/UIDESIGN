@@ -1,0 +1,231 @@
+.headbg{
+background: #1a2a38;
+}
+
+.headbgNav{
+background: #2F4152;
+}
+
+.headbgNav ul li a{
+color: #fff;
+}
+
+.headbgNav ul li.active a,
+.headbgNav ul li:hover a{
+color: #08A355;
+}
+
+.logo{
+font-size: 30px;
+font-weight: bold;
+color: #fff;
+line-height: 52px;
+margin-left: -15px;
+}
+
+.logo span{
+color: #08A355;
+
+}
+
+.green-color{
+color: #08A355 !important;
+
+}
+
+.headbgNav .nav{
+margin-left: -30px;
+}
+
+.main-content{
+margin-top: 30px;
+border: 1px solid #b1bfcc;
+border-radius: 6px;
+overflow: hidden;
+
+}
+
+.heading-outer{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e9ecf0+0,bdc7cf+100 */
+background: #e9ecf0; /* Old browsers */
+background: -moz-linear-gradient(top, #e9ecf0 0%, #bdc7cf 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #e9ecf0 0%,#bdc7cf 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #e9ecf0 0%,#bdc7cf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9ecf0', endColorstr='#bdc7cf',GradientType=0 ); /* IE6-9 */
+}
+h3{
+color: #25323e;
+line-height: 40px;
+font-size: 18px;
+margin: 0;
+}
+
+.content-inner{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.shadow-box h3{
+padding: 0 15px;
+line-height: 40px;
+}
+
+.shadow-box{
+box-shadow: 0px 1px 12px 0px #ddd;
+border-radius: 10px;
+overflow: hidden;
+min-height: 380px;
+}
+
+.shadow-box table td{
+border-bottom: 1px solid #ddd;
+color: #6f7882;
+}
+.content-inner h3{
+text-transform: uppercase;
+}
+
+.content-gap{
+padding: 30px 15px;
+}
+
+.shadow-box .nav-tabs .nav-link{
+border-radius: 0;
+color: #6f7882;
+border:1px solid #dddddd;
+}
+
+.shadow-box .nav-tabs .nav-item{ 
+margin-left: -1px;
+}
+
+.shadow-box .nav-tabs .nav-item:first-child{ 
+margin-left: 0px;
+}
+
+.nav-tabs .nav-item.show .nav-link, 
+.nav-tabs .nav-link.active{
+background: #f4f4f5;
+}
+
+.guest-arriving{
+padding-right: 15px;
+font-size: 14px;
+}
+
+.headbgNav .nav .dropdown-menu{
+margin: 0;
+border-radius: 0 0 3px 3px;
+}
+
+.headbgNav .nav li.dropdown:hover .dropdown-menu{
+display: block;
+}
+
+.headbgNav .nav .dropdown-divider{
+margin: 0;
+}
+
+.headbgNav ul .dropdown:hover .dropdown-menu  a,
+.headbgNav ul .dropdown-menu  a:hover,
+.headbgNav ul .dropdown-menu a{
+color: #6f7882;
+}
+
+.headbg ul li > a{
+color: #fff;
+}
+
+.headbg .dropdown{
+margin-top: 6px;
+}
+
+.user-img{
+border: 1px solid #fff;
+padding: 5px;
+border-radius: 50%;
+width: 30px;
+height: 30px;
+display: inline-block;
+text-align: center;
+line-height: 18px;
+}
+
+.box{
+padding: 10px 30px 10px 0;
+margin-bottom: 12px;
+color: #fff;
+}
+.headbg ul.nav-pills {
+display: inline-block;
+}
+
+
+.headbg ul.nav-pills .nav-item{
+display: inline-block;
+vertical-align: middle;
+}
+.orange{
+background: #ffb03c;
+border: 2px solid #c67702;}
+
+.darkblue{
+background: #906ccf;
+border: 2px solid #4603ba;
+}
+
+.blue{
+background: #3eb4e9;
+border: 2px solid #0379ae;
+}
+
+
+.green-dark{
+background: #a9d830;
+border: 2px solid #76a400;
+}
+
+span.number {
+display: inline-block;
+width: 80px;
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+vertical-align: middle;
+border-right: 1px solid #fff;
+padding: 8px 0;
+}
+
+span.text {
+padding-top: 6px;
+font-size: 24px;
+display: inline-block;
+vertical-align: middle;
+font-weight: bold;
+text-align: right;
+line-height: 1.2;
+}
+
+span.text span{
+display: block;
+font-size: 18px;
+font-weight: normal;
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+.logo{
+margin: 0;
+}
+.headbgNav .nav {
+margin-left: -0px;
+display: block;
+}
+.headbgNav .nav .nav-item{
+display: block;
+text-align: center;
+}
+
+.headbg .text-right{
+text-align: center !important;
+}
+}
